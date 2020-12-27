@@ -3,6 +3,10 @@
    <application
         android:label="ubuaround"
         android:icon="@mipmap/ic_launcher">
+
+        <!-- TODO: Add your API key here -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyC_qbBoQKgAzWruA8ItaQ_X56Q669cWo5w"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
